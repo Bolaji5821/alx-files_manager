@@ -1,3 +1,4 @@
+
 /* eslint-disable no-param-reassign */
 import { contentType } from 'mime-types';
 import dbClient from '../utils/db';
@@ -113,4 +114,3 @@ export default class FilesController {
       response.status(404).json({ error: 'Not found' }).end();
     }
   }
-}
